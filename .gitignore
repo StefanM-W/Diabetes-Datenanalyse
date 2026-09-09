@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+
+
+# Editor-/IDE-Einstellungen (rechnerspezifisch, z.B. Interpreter-Pfade)
+.vscode/
+.idea/
+
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+
+# Projektunterlagen (nicht auf GitHub)
+*.docx
+*.pptx
