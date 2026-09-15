@@ -318,7 +318,7 @@ def main():
                         ]
 
                         ergebnis_df = upload_df.copy()
-                        ergebnis_df['Prognose'] = ['Diabetes' if p > 0.5 else 'Kein Diabetes' for p in wahrscheinlichkeiten]git remote add origin https://github.com/<DEIN-NAME>/<REPO>.git
+                        ergebnis_df['Prognose'] = ['Diabetes' if p > 0.5 else 'Kein Diabetes' for p in wahrscheinlichkeiten]
                         ergebnis_df['Wahrscheinlichkeit_Diabetes'] = wahrscheinlichkeiten
 
                         st.write('Ergebnis:')
